@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Resolution Time Forecast</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Complaint Resolution Time Forecast</h1>
+    <canvas id="forecastChart"></canvas>
+
+    <!-- Place the script here, right before the closing body tag -->
+    <script>
+        const forecastData = <%= JSON.stringify(forecast) %>;
+        console.log(forecastData);
+        // Wait for the DOM to be fully loaded
+        window.onload = function() {
+            const ctx = document.getElementById('forecastChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: forecastData.dates,
+                    datasets: [
+                        {
+                            label: "Predicted Resolution Time",
+                            data: forecastData.predictions,
+                            borderColor: "blue",
+                            fill: false
+                        },
+                        {
+                            label: "Lower Bound",
+                            data: forecastData.lower_bound,
+                            borderColor: "green",
+                            borderDash: [5, 5],
+                            fill: false
+                        },
+                        {
+                            label: "Upper Bound",
+                            data: forecastData.upper_bound,
+                            borderColor: "red",
+                            borderDash: [5, 5],
+                            fill: false
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: { title: { display: true, text: "Date" } },
+                        y: { title: { display: true, text: "Resolution Time (minutes)" } }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

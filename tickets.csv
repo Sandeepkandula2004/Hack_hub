@@ -1,0 +1,8 @@
+"id","pnr_number","passenger_name","flight_number","departure_airport","arrival_airport","departure_date","departure_time","class_of_service","baggage_allowance"
+1,"PNR123456","John Doe","AI202","JFK International Airport","Los Angeles International Airport","2025-03-01","08:30:00","Economy","20kg"
+2,"PNR234567","Jane Smith","AI203","London Heathrow","Paris Charles de Gaulle","2025-03-02","12:15:00","Business","30kg"
+3,"PNR345678","Michael Johnson","AI204","San Francisco International","Chicago O'Hare International","2025-03-03","17:45:00","First Class","40kg"
+4,"PNR456789","Emily Davis","AI205","Dubai International Airport","Dubai International Airport","2025-03-04","22:00:00","Economy","20kg"
+5,"PNR567890","Daniel Williams","AI206","Sydney Kingsford Smith","Melbourne Airport","2025-03-05","06:00:00","Economy","25kg"
+6,"PNR678901","Sophia Brown","AI207","Tokyo Narita Airport","Hong Kong International Airport","2025-03-06","09:30:00","Premium Economy","30kg"
+7,"PNR789012","Lucas Green","AI208","Los Angeles International Airport","New York John F. Kennedy","2025-03-07","10:00:00","Business","35kg"

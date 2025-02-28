@@ -1,0 +1,30 @@
+"i_id","issue","urgency","location","issuetype","status","compliant_time","sentiment","suggestions","pnr_number","resolved_time"
+40,"Damaged suitcase upon arrival.","Medium","Baggage Claim","Baggage handling","Resolved","2025-02-27 23:56:50.441297","Frustrated","Enhance baggage tracking system.","PNR90123",NULL
+41,"Excessively long check-in process.","Critical","Check-in and Boarding Area","Check-in and boarding","Escalated","2025-02-27 23:56:50.441297","Angry","Allocate more staff during peak hours.","PNR01234",NULL
+42,"Security checkpoint delays.","High","Security Checkpoint","Security","New","2025-02-27 23:56:50.441297","Frustrated","Implement faster security screening measures.","PNR12346",NULL
+43,"Limited seating in the terminal.","Low","Terminal Facilities","Terminal facilities","Resolved","2025-02-27 23:56:50.441297","Satisfied","Improve seating arrangements in waiting areas.","PNR23457",NULL
+44,"Missed connection due to flight delay.","High","Gate Area","Flight delays and cancellations","In Progress","2025-02-27 23:56:50.441297","Angry","Provide better compensation for delays.","PNR34568",NULL
+45,"Poor customer service at the gate.","Critical","Check-in and Boarding Area","Customer service","Escalated","2025-02-27 23:56:50.441297","Frustrated","Train staff to handle complaints better.","PNR45679",NULL
+46,"Refund request process unclear.","Medium","Terminal Facilities","Refunds","New","2025-02-27 23:56:50.441297","Neutral","Simplify refund request procedures.","PNR56780",NULL
+47,"No one available to provide flight information.","Low","Security Checkpoint","General information","Resolved","2025-02-27 23:56:50.441297","Satisfied","Offer multilingual support for queries.","PNR67891",NULL
+48,"Baggage delayed for over an hour.","Critical","Baggage Claim","Baggage handling","Escalated","2025-02-27 23:56:50.441297","Angry","Upgrade baggage handling technology.","PNR78912",NULL
+49,"Broken self-check-in kiosks.","High","Check-in and Boarding Area","Check-in and boarding","In Progress","2025-02-27 23:56:50.441297","Frustrated","Reduce queue times with automated kiosks.","PNR89023",NULL
+50,"Security screening inconsistent.","Medium","Security Checkpoint","Security","New","2025-02-27 23:56:50.441297","Neutral","Enhance security staff training programs.","PNR90134",NULL
+51,"Restrooms in poor condition.","Low","Terminal Facilities","Terminal facilities","Resolved","2025-02-27 23:56:50.441297","Satisfied","Ensure proper restroom maintenance.","PNR01235",NULL
+32,"Lost baggage upon arrival.","High","Baggage Claim","Baggage handling","Completed","2025-02-27 23:56:50.441297","Angry","Increase baggage staff for quicker resolution.","PNR12345",NULL
+33,"Long check-in queues caused delays.","Medium","Check-in and Boarding Area","Check-in and boarding","Completed","2025-02-27 23:56:50.441297","Frustrated","Add more counters to reduce wait times.","PNR23456",NULL
+34,"Rude security staff during screening.","Critical","Security Checkpoint","Security","Completed","2025-02-27 23:56:50.441297","Angry","Improve staff efficiency and screening process.","PNR34567",NULL
+35,"Dirty and overcrowded waiting area.","Low","Terminal Facilities","Terminal facilities","Completed","2025-02-27 23:56:50.441297","Neutral","Regular maintenance schedule needed.","PNR45678",NULL
+36,"Flight delay with no proper updates.","Critical","Gate Area","Flight delays and cancellations","Completed","2025-02-27 23:56:50.441297","Frustrated","Improve communication and provide better updates.","PNR56789",NULL
+37,"Unhelpful staff at the service counter.","Medium","Check-in and Boarding Area","Customer service","Completed","2025-02-27 23:56:50.441297","Satisfied","Maintain a friendly and helpful attitude.","PNR67890",NULL
+53,"Baggage is lost","High","Baggage Claim","Baggage handling","Pending","2025-02-28 00:38:26.904574","Frustrated",NULL,NULL,NULL
+38,"Delayed refund processing.","High","Terminal Facilities","Refunds","Completed","2025-02-27 23:56:50.441297","Angry","Streamline refund policy for quicker processing.","PNR78901",NULL
+54,"Lost a 10 rupees note","Low","Terminal Facilities","Terminal facilities","Pending","2025-02-28 00:42:24.956709","Frustrated",NULL,NULL,NULL
+55,"Not specified","Low","Not specified","General information","Pending","2025-02-28 00:49:06.929285","Satisfied",NULL,NULL,NULL
+56,"Lost baby boy","Critical","Not specified","Customer service","Pending","2025-02-28 00:49:58.666392","Angry",NULL,NULL,NULL
+57,"Lost baby boy","Critical","Not specified","General information","Pending","2025-02-28 01:00:29.097224","Anxious/Stressed",NULL,NULL,NULL
+39,"Confusing airport signage.","Low","Security Checkpoint","General information","Completed","2025-02-27 23:56:50.441297","Neutral","Improve signage for better directions.","PNR89012",NULL
+58,"Not specified","Low","Not specified","General information","Pending","2025-02-28 01:35:16.942305","Satisfied",NULL,NULL,NULL
+59,"One of my bags is lost.","High","Baggage Claim","Baggage handling","Pending","2025-02-28 01:37:03.258401","Frustrated",NULL,NULL,NULL
+60,"One of my bags is lost.","High","Baggage Claim","Baggage handling","Completed","2025-02-28 01:43:28.237719","Frustrated",NULL,NULL,NULL
+61,"One of my bags is lost.","High","Baggage Claim","Baggage handling","Completed","2025-02-28 01:52:41.841133","Frustrated","Investigate the lost baggage and expedite its return to the passenger.","Not specified","2025-02-28 03:06:46.111556"
